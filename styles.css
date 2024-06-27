@@ -12,6 +12,7 @@ body {
 
 .container  {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -21,21 +22,22 @@ body {
 .card {
     width: 320px;
     height: 497px;
-    border-radius: 1em;
+    border-radius: 1.2em;
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     box-sizing: border-box;
-    padding-top: 1em;
+    padding-top: 1.2em;
+    box-shadow: 0 0 5px 1px hsl(210, 29%, 75%);
 }
 
 .card img {
     width: 280px;
-    border-radius: .5em;
+    border-radius: 1em;
 }
 
 /* Heading + Paragraph text */
 .card-text {
-    padding: 0 2em;
+    padding: .5em 2em;
     margin-bottom: 1em;
 }
 
